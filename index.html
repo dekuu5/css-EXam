@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS MCQ Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>CSS Multiple Choice Quiz</h1>
+        <div id="timer">Time Remaining: <span id="time">20:00</span></div>
+
+        <!-- Quiz container to display one question at a time -->
+        <div id="quiz"></div>
+
+        <!-- Navigation buttons -->
+        <button id="prevBtn" onclick="prevQuestion()" style="display: none;">Previous</button>
+        <button id="nextBtn" onclick="nextQuestion()">Next</button>
+        <button id="submitBtn" onclick="submitQuiz()" style="display: none;">Submit Quiz</button>
+
+        <!-- Start button -->
+        <button id="startBtn" onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
